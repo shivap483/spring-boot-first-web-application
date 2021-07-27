@@ -11,12 +11,8 @@ public class Todo {
     private boolean isDone;
 
 
-    public Todo() {
-        super();
-    }
-
     public Todo(int id, String user, String defaultDesc, Date date, boolean isDone) {
-        super();
+//        super();
         this.id = id;
         this.user = user;
         this.description = defaultDesc;
